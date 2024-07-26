@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídia em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinâmica</h1>
+    <p>tente abrir este dite em vários dispositivos diferentes ou simplesmente aumente e diminue o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 500px)" srcset="imagens/pequena" type="image/jpg">
+        <source media="(max-width: 1500px )" srcset="imagens/buela 2" type="image/jpg">
+        <img src="imagens/FB_IMG_1668172324618.jpg" alt="foto flexível">
+    </picture>
+    <h1>Reproduzindo audio</h1>
+    <p>Vamos aprender a reproduziraudios em html5</p>
+    <audio src="media/Ficheiro de WhatsApp 2024-06-01 às 22.08.37_63cd6606.mp3" controls autoplay></audio>
+    <audio preload="auto"autoplay controls loop>
+        <source src="media/Ficheiro de WhatsApp 2024-06-01 às 22.08.37_63cd6606.mp3" type="audio/mpeg">
+        <source src="media/Ficheiro de WhatsApp 2024-06-01 às 22.08.37_63cd6606.ogg" type="audio/ogg">
+        <source src="media/Ficheiro de WhatsApp 2024-06-01 às 22.08.37_63cd6606.wav" type="audio/wav">
+        <p>infelizmente o seu dispositivo é imconpatível para reproduzir o audio <a href="media/Ficheiro de WhatsApp 2024-06-01 às 22.08.37_63cd6606.mp3">clique aqui pra baixar o arquivo</a></p>
+    </audio>
+</body>
+
+</html>
